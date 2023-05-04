@@ -20,17 +20,12 @@
     </item>
     
     <item>
-      <title>從0050看台灣產業分佈</title>
+      <title>See the industry structure from stock 0050.TW</title>
       <link>https://usausagichan.github.io/blog/0050/</link>
       <pubDate>Sat, 07 Jan 2023 10:07:47 +0800</pubDate>
       
       <guid>https://usausagichan.github.io/blog/0050/</guid>
-      <description>​ 只要你是台股的投資者，相信你一定對元大0050並不陌生。元大0050是台灣最大的指數型基金(ETF)之一，而他所追蹤的指數就是台灣50指數，我們可以簡略的把這檔ETF看作定期追蹤台灣市值前50大的公司，並按照這50大公司的市值去分配投資組合的比例，且會根據這些公司市值的變化滾動式修正投資組合的名單或佔比。因此，從0050的投資組合佔比我們便可掌握台灣大致的產業分佈和台灣的主流企業。
-在這個project中，我先利用python從公開資訊觀測站(https://mops.twse.com.tw/mops/web/t78sb04_q2) 抓取元大0050歷年來的投資組合比例，然後用Tableau視覺化分析台灣產業分佈和主流企業的變化。
-關於爬取資料的部分，我將程式碼放在我的Github： https://github.com/usausagichan/data-mining-for-0050.Tw- ，有興趣的朋友可以參考一下。
-而以下文章我就直接呈現將這些資料視覺化的結果（https://public.tableau.com/app/profile/ctchen/viz/IndustryAnalysis_16698030444010/Dashboard1可見完整dashboard），並為此做一些分析。
-公開資訊觀測站的資料
-抓下來的資料如下圖，可以看到表中包含了股票名稱、產業類別和持股比率，欄目持股比率為單一公司股票佔比，持股比率.1為產業類別的佔比</description>
+      <description>If you are an investor in the Taiwan stock market, you are likely familiar with the Yuanta 0050 ETF(0050.</description>
     </item>
     
   </channel>
