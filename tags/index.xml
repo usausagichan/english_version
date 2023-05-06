@@ -5,29 +5,30 @@
     <link>https://usausagichan.github.io/english_version/tags/</link>
     <description>Recent content in Tags on My Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://usausagichan.github.io/english_version/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Machine Learning</title>
-      <link>https://usausagichan.github.io/english_version/tags/machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://usausagichan.github.io/english_version/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://usausagichan.github.io/english_version/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python</title>
       <link>https://usausagichan.github.io/english_version/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://usausagichan.github.io/english_version/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Machine Learning</title>
+      <link>https://usausagichan.github.io/english_version/tags/machine-learning/</link>
+      <pubDate>Sat, 07 Jan 2023 10:07:47 +0800</pubDate>
+      
+      <guid>https://usausagichan.github.io/english_version/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scraping</title>
       <link>https://usausagichan.github.io/english_version/tags/scraping/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Jan 2023 10:07:47 +0800</pubDate>
       
       <guid>https://usausagichan.github.io/english_version/tags/scraping/</guid>
       <description></description>
@@ -36,9 +37,18 @@
     <item>
       <title>Tableau</title>
       <link>https://usausagichan.github.io/english_version/tags/tableau/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Jan 2023 10:07:47 +0800</pubDate>
       
       <guid>https://usausagichan.github.io/english_version/tags/tableau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A/B Testing</title>
+      <link>https://usausagichan.github.io/english_version/tags/a/b-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://usausagichan.github.io/english_version/tags/a/b-testing/</guid>
       <description></description>
     </item>
     
