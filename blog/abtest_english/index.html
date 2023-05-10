@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="想像一下如果全班都在玩某款手遊，你是不是也會忍不住載來玩看看呢？因此很多手機遊戲經常會推出邀請朋友送道具的活動，為的就是要吸引你和你的朋友同時玩這款遊戲，增加新客-你的朋友的同時，也讓你們兩個在遊戲的留存率因為對方也在玩的關係跟著提高。 但是如果你是企劃，在推薦計畫推出前是不是得先用少部分的玩家先測試一下方案的效果呢？這時就需要用A/B Test來驗證方案效果。">
+  <meta name="description" content="As I&#39;m currently studying about A/B test, I would like to put it into practice inorder to better understand it and know how to implement it. I chose an excercise about referral program from data masked.com The main task in this excercise is to perform A/B test in order to know if the referral program works(or help company to make more money) or not.">
   <meta name="author" content="CT Chen">
     
   
@@ -89,12 +89,6 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://usausagichan.github.io/english_version/about/">About</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
             <a class="nav-link" href="https://usausagichan.github.io/english_version/blog/">Post</a>
           </li>
           
@@ -134,35 +128,25 @@
           <span>By CT Chen</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>20 March 2023</span>
+          <span>01 January 0001</span>
           
         </div>
         
         <img src="https://usausagichan.github.io/english_version/images/featured-post/ab_test.jpeg" class="img-fluid w-100 mb-4" alt="A/B Testing - User referral Program">
         
         <div class="content mb-5">
-          <h4 id="專案簡介">專案簡介</h4>
-<p>對品牌來說，藉由現有客戶引進新客戶有時是比大量投放廣告更有效率的方法。比如對手機遊戲來說，朋友是不是也有在玩很多時候會影響你繼續玩下去的意願。想像一下如果全班都在玩某款手遊，你是不是也會忍不住載來玩看看呢？因此很多手機遊戲經常會推出邀請朋友送道具的活動，為的就是要吸引你和你的朋友同時玩這款遊戲，增加新客-你的朋友的同時，也讓你們兩個在遊戲的留存率因為對方也在玩的關係跟著提高。
-但是如果你是企劃，在推薦計畫推出前是不是得先用少部分的玩家先測試一下方案的效果呢？這時就需要用A/B Test來驗證方案效果。
-這個專案便是用(<a href="https://datamasked.com/">https://datamasked.com/</a>)網站中的資料練習A/B Testing的實作，確定某公司實施的推薦計劃是否有效（或有助於公司賺取更多的收入）。
-我認為推薦計劃的成功應該定義為：
-（1）通過推薦計劃找到有價值的用戶（即推薦用戶的消費高於普通用戶），
-（2）促進銷售或增加整體消費。</p>
-<p>為了確定推薦計劃是否有效，我們需要回答以下問題：
-（1）推薦計劃的用戶是否比普通用戶消費更多？
-（2）推薦計劃是否能增加收入？</p>
-<p>完整程式碼可見於 <a href="https://github.com/usausagichan/AB-test-referral-program/blob/main/user_referral_program.ipynb">本連結</a>
-####查看資料
-先大概看過有哪些column、並檢查資料的格式是不是恰當的</p>
-<p>####Task(1)推薦計劃的用戶是否比普通用戶消費更多？
-為了回答這個問題，我將資料拆分為:
-<!-- raw HTML omitted -->控制組:非來自推薦計畫的使用者(referrral=0)
-<!-- raw HTML omitted -->實驗組:來自推薦計畫的使用者(referrral=1)
-<!-- raw HTML omitted -->並進行A/B Test檢驗兩者是否有不同
-<!-- raw HTML omitted -->在檢驗進行前我先大致看過資料的分佈和視覺化成果
-<img src="../../images/post/excel.png" alt="data">
-<img src="../../images/post/excel.png" alt="data">
-比較上圖test_data和control_data可發現兩者起始日期不同(2015-10-31&amp;2015-10-03)，推測是因為推薦計畫的開始日期是10/31的緣故，因此若要比較控制組和實驗組應該都取10/31後的資料。</p>
+          <h4 id="overview">Overview</h4>
+<p>For brands, introducing new customers through existing customers can sometimes be a more efficient method than heavily investing in advertising. For example, in the case of mobile games, knowing that your friends are playing often influences your willingness to continue playing. Imagine if everyone in your class was playing a certain mobile game, wouldn&rsquo;t you also be tempted to try it out? Therefore, many mobile games often launch invite-a-friend campaigns to attract you and your friends to play the game at the same time, increasing the number of new customers and the retention rate for both of you because of the mutual interest.
+However, if you are a planner, wouldn&rsquo;t you need to test the effectiveness of the plan with a small group of players before launching the recommendation program? This is where A/B testing is needed to verify the effectiveness of the plan.
+This project is a practice of implementing A/B testing using data from (<a href="https://datamasked.com/)%5B1%5D">https://datamasked.com/)[1]</a>  to determine whether a company&rsquo;s recommendation program is effective (or helpful for the company to earn more revenue).</p>
+<p>The main task in this excercise is to perform A/B test in order to know if the referral program works(or help company to make more money) or not.</p>
+<p>I assume the success of referral program is defined as
+(1) find valuable users(the referral users spent more than normal users)
+(2) boost the sales, or more money was spent overall.</p>
+<p>To know whether the referral program works, we should know:
+(1) Is users from referral program spent more than normal users?
+(2) Does referral program makes the money grows up?</p>
+<p>I documented all my analysis process on Colab. You can see at <a href="https://colab.research.google.com/github/usausagichan/AB-test-referral-program/blob/main/user_referral_program.ipynb#scrollTo=ek9rWpomJbVk">https://colab.research.google.com/github/usausagichan/AB-test-referral-program/blob/main/user_referral_program.ipynb#scrollTo=ek9rWpomJbVk</a></p>
 
         </div>
 
